@@ -1,16 +1,15 @@
 import React from 'react'
+import planetInfo from '../services/planetsInfo'
 
 export default () => ( 
-    <div className = "container">
-		<h1>Teste</h1>
+		<div className="container">
+		<h1></h1>
 		<div className="row">
-			<div className="col-md-2 bio">
-				<InfoUser />
-			</div>
-			<div className="col-md-8 tweets">
-				<TweetLine />
-			</div>
-			<div className="col-md-2 links">teste3</div>
+				<div className="info">Population: </div>
+				<div className="info">Climate: </div>
+				<div className="info">Terrain: </div>
+				<div className="info">Featured in # films</div>
 		</div>
-    </div>
+		<button className="next">Next</button>
+		</div>
 )

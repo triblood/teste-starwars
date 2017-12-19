@@ -1,7 +1,7 @@
 {
-  "name": "twitter-react",
+  "name": "starwars-planets",
   "version": "1.0.0",
-  "description": "Cliente Twitter feito em React",
+  "description": "Teste B2W",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "browser-sync": "^2.18.13",
     "browser-sync-webpack-plugin": "^1.2.0",
